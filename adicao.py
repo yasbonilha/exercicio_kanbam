@@ -1,8 +1,7 @@
-operacao = int(input("qual operação você deseja?\n1. Soma\n2. Subtração\n3. Multiplicação\n4. Divisão"))
+# operacao = int(input("qual operação você deseja?\n1. Soma\n2. Subtração\n3. Multiplicação\n4. Divisão"))
 
-a = int(input("Insira o primeiro valor: "))
-b = int(input("Insira o segundo valor: "))
+def adicao(a, b):
+    soma = a + b
+    return soma
 
-soma = a + b
-
-print("A soma dos valores é: ", soma)
+# print("A soma dos valores é: ", soma)
